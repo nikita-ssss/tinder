@@ -1,0 +1,23 @@
+.add-photos {
+    &__wrapper {
+        padding: 10px;
+    }
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+    &__item {
+        border-radius: 8px;
+        border: 4px #B9BFC8 dotted;
+        height: 150px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #303030;
+        font-weight: 600;
+        cursor: pointer;
+    }
+}
